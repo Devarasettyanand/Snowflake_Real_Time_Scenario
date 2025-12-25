@@ -9,5 +9,7 @@ Handling dynamic data loads based on current date
 
 
 📌 Use Case: Loading data dynamically from daily S3 folders into Snowflake
+
 📌 Tech Stack: Snowflake, AWS S3, SQL, Stored Procedures
+
 📌 Level: Intermediate to Advanced (Real-time + Interview-Focused)
