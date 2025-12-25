@@ -1,6 +1,6 @@
 # Snowflake_Real_Time_Scenario
 
-use case 1 : Automate Data Loads from S3 Dynamic Day-Wise Folders to Snowflake.
+Use Case 1 : Automate Data Loads from S3 Dynamic Day-Wise Folders to Snowflake.
 
 Real-time data ingestion from S3 to Snowflake
 Navigating day-wise partitioned folders in S3
