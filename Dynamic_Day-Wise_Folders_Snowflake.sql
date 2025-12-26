@@ -93,6 +93,11 @@ CALL dynamic_load();
 select * from patients_raw ;
 
 
+CREATE OR REPLACE TASK DAILY_LOAD_TASK
+WAREHOUSE = COMPUTE_WH
+SCHEDULE = 'USING CRON 0 2 * * * UTC'
+AS
+CALL DYNAMIC_LOAD();
 
 
 
